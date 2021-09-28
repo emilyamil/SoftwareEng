@@ -1,0 +1,163 @@
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.UI;
+
+public class ButtonDisables : MonoBehaviour
+{
+    // Start is called before the first frame update
+
+    //Variables listing all buttons for choosing spots in Roulette
+    public Button ZeroZero, Zero;
+    public Button One;
+    public Button Two;
+    public Button Three;
+    public Button Four;
+    public Button Five;
+    public Button Six;
+    public Button Seven;
+    public Button Eight;
+    public Button Nine;
+    public Button Ten;
+    public Button Eleven;
+    public Button Twelve;
+    public Button Thirteen;
+    public Button Fourteen;
+    public Button Fifteen;
+    public Button Sixteen;
+    public Button Seventeen;
+    public Button Eighteen;
+    public Button Nineteen;
+    public Button Twenty;
+    public Button TwentyOne;
+    public Button TwentyTwo;
+    public Button TwentyThree;
+    public Button TwentyFour;
+    public Button TwentyFive;
+    public Button TwentySix;
+    public Button TwentySeven;
+    public Button TwentyEight;
+    public Button TwentyNine;
+    public Button Thirty;
+    public Button ThirtyOne;
+    public Button ThirtyTwo;
+    public Button ThirtyThree;
+    public Button ThirtyFour;
+    public Button ThirtyFive;
+    public Button ThirtySix;
+    public Button b, m, t;
+    public Button FirstT, SecondT, ThirdT;
+    public Button OneToEighteen, NineteenToThirtySix;
+    public Button Odd, Even;
+    public Button Black, Red;
+
+    //Functions
+    public void DisableButtons() //Player can't click buttons once chosen 
+    {
+        ZeroZero.interactable = false;
+        Zero.interactable = false;
+        One.interactable = false;
+        Two.interactable = false;
+        Three.interactable = false;
+        Four.interactable = false;
+        Five.interactable = false;
+        Six.interactable = false;
+        Seven.interactable = false;
+        Eight.interactable = false;
+        Nine.interactable = false;
+        Ten.interactable = false;
+        Eleven.interactable = false;
+        Twelve.interactable = false;
+        Thirteen.interactable = false;
+        Fourteen.interactable = false;
+        Fifteen.interactable = false;
+        Sixteen.interactable = false;
+        Seventeen.interactable = false;
+        Eighteen.interactable = false;
+        Nineteen.interactable = false;
+        Twenty.interactable = false;
+        TwentyOne.interactable = false;
+        TwentyTwo.interactable = false;
+        TwentyThree.interactable = false;
+        TwentyFour.interactable = false;
+        TwentyFive.interactable = false;
+        TwentySix.interactable = false;
+        TwentySix.interactable = false;
+        TwentySeven.interactable = false;
+        TwentyEight.interactable = false;
+        TwentyNine.interactable = false;
+        Thirty.interactable = false;
+        ThirtyOne.interactable = false;
+        ThirtyTwo.interactable = false;
+        ThirtyThree.interactable = false;
+        ThirtyFour.interactable = false;
+        ThirtyFive.interactable = false;
+        ThirtySix.interactable = false;
+        b.interactable = false;
+        m.interactable = false;
+        t.interactable = false;
+        FirstT.interactable = false;
+        SecondT.interactable = false;
+        ThirdT.interactable = false;
+        OneToEighteen.interactable = false;
+        NineteenToThirtySix.interactable = false;
+        Odd.interactable = false;
+        Even.interactable = false;
+        Black.interactable = false;
+        Red.interactable = false;
+    }
+    public void EnableButtons() //Re-enable buttons when new game
+    {
+        ZeroZero.interactable = true;
+        Zero.interactable = true;
+        One.interactable = true;
+        Two.interactable = true;
+        Three.interactable = true;
+        Four.interactable = true;
+        Five.interactable = true;
+        Six.interactable = true;
+        Seven.interactable = true;
+        Eight.interactable = true;
+        Nine.interactable = true;
+        Ten.interactable = true;
+        Eleven.interactable = true;
+        Twelve.interactable = true;
+        Thirteen.interactable = true;
+        Fourteen.interactable = true;
+        Fifteen.interactable = true;
+        Sixteen.interactable = true;
+        Seventeen.interactable = true;
+        Eighteen.interactable = true;
+        Nineteen.interactable = true;
+        Twenty.interactable = true;
+        TwentyOne.interactable = true;
+        TwentyTwo.interactable = true;
+        TwentyThree.interactable = true;
+        TwentyFour.interactable = true;
+        TwentyFive.interactable = true;
+        TwentySix.interactable = true;
+        TwentySix.interactable = true;
+        TwentySeven.interactable = true;
+        TwentyEight.interactable = true;
+        TwentyNine.interactable = true;
+        Thirty.interactable = true;
+        ThirtyOne.interactable = true;
+        ThirtyTwo.interactable = true;
+        ThirtyThree.interactable = true;
+        ThirtyFour.interactable = true;
+        ThirtyFive.interactable = true;
+        ThirtySix.interactable = true;
+        b.interactable = true;
+        m.interactable = true;
+        t.interactable = true;
+        FirstT.interactable = true;
+        SecondT.interactable = true;
+        ThirdT.interactable = true;
+        OneToEighteen.interactable = true;
+        NineteenToThirtySix.interactable = true;
+        Odd.interactable = true;
+        Even.interactable = true;
+        Black.interactable = true;
+        Red.interactable = true;
+    }
+}
