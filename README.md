@@ -1,8 +1,7 @@
 # SoftwareEng
 Final Project for CS372 Software Engineering
 
-At this point you should have an unzipped folder with a few files and an .exe.
- CLICK THE CA$INO .EXE TO RUN THE GAME. 
+CA$INO .EXE TO RUN THE GAME. 
  
  After starting .exe:
 option to read a how to play guide
@@ -19,6 +18,5 @@ Do not be alarmed, the "stop" and "restart" buttons are on a delay so that there
  THE PAYOUT SYSTEM ON ROULETTE IS DELAYED. DON'T BE ALARMED IF THE BALANCE GETS UPDATED ON THE FOLLOWING SPIN OR AFTER. 
 
 View C# files: Within “Scripts” folder [12 .cs files]
-View all documentation: “Casino Documentation Files” folder
 View Unity scenes: “Scenes” folder [14 files]
 
